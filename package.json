@@ -1,0 +1,29 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Fasting API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bestbrain10/fasting-api.git"
+  },
+  "keywords": [
+    "Fasting"
+  ],
+  "author": "Livinus Igbaji Oga-ifu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bestbrain10/fasting-api/issues"
+  },
+  "homepage": "https://github.com/bestbrain10/fasting-api#readme",
+  "dependencies": {
+    "@hapi/joi": "^15.1.0",
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.0",
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.6.5"
+  }
+}
